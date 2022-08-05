@@ -13,7 +13,7 @@ da multa que João deverá pagar. Caso contrário mostrar tais variáveis com o 
 ZERO. 
 	 */
 
-	 real P, E, M
+	 real P, E, M = 0
 	 real pesoMaximoDoRegulamento = 50.00
 	 real multaDoRegulamento = 4.00
 	
@@ -27,7 +27,7 @@ limpa ()
 	 	escreva ("O peso máximo foi atingido e você terá que pagar pelo execedente no valor de ",M," reais.\n")
 	 	escreva ("Peso: ",P," Kg\nMulta: ",M," reais")
 	 	}senao {
-	 		escreva ("Tudo certo.\nPeso: ",P," Kg\nMulta: Zero")
+	 		escreva ("Tudo certo.\nPeso: ",P," Kg\nMulta: ",M)
 	 		}
 	}
 }
@@ -36,7 +36,7 @@ limpa ()
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 577; 
+ * @POSICAO-CURSOR = 973; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
