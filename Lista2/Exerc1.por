@@ -16,7 +16,7 @@ d) percentual de pessoas com salário até R$100,00.
 
 		  real salario, somaSalario = 0.0, mediaSalarioDaPopulacao, mediaNumeroDeFilhos, maiorSalario = 0.0 
 		  real numeroSalarioMinimo = 0.0, percentualSalarioAteCem
-		  inteiro numeroFilhos, numeroDeAmostragem = 3, somaFilhos = 0
+		  inteiro numeroFilhos, numeroDeAmostragem = 20, somaFilhos = 0
 		  
 
 		  para (inteiro i = 0; i < numeroDeAmostragem; i++) {
@@ -57,7 +57,7 @@ d) percentual de pessoas com salário até R$100,00.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 906; 
+ * @POSICAO-CURSOR = 752; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
