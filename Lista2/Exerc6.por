@@ -13,11 +13,11 @@ números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
 		 escreva ("Valor: ")
 		 leia (valor)
 
-		 enquanto (i <= valor){
+		faca {
 		 	
 		 	soma += i
 		 	i++
-		 		  }
+		 		  } enquanto (i <= valor)
 		escreva (soma)
 		 
 	}
@@ -27,7 +27,7 @@ números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 304; 
+ * @POSICAO-CURSOR = 366; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
